@@ -2,7 +2,7 @@
 
 /******************************
  * LED library example
- * led blink demo implet
+ * led blink demo
  *******************************/
 int pin=13;
 LED led(pin);
