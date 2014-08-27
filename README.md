@@ -3,7 +3,7 @@ Arduino
 
 Arduino examples and libraries for myself.
 
-## Libraries
+## Original libraries
 - EEPROM
 - Esplora
 - Ethernet
@@ -22,7 +22,13 @@ Arduino examples and libraries for myself.
 - WiFi
 - Wire(I2C)
 
-## Arduino Resource
+## Third-part library
+- PID_v1
+
+## Custom library
+- LED_v2
+
+## Arduino Mega 2560 resource
 - Power(GND 5V 3.3V RESET)
 - Analog In(A0 ~ A15)
 - Digital(31 ~ 52)
