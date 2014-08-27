@@ -1,20 +1,18 @@
 #include <LED_v2.h>
 
-/*
- * A basic demo for LED library
- * which is myself library created step by step
- * http://arduino.cc/en/Hacking/LibraryTutorial
- */
+/******************************
+ * LED library example
+ * led blink demo implet
+ *******************************/
+int pin=13;
+LED led(pin);
 
-LED led(13);
-
-void setup() 
-{}
-
-void loop() 
+void setup()
 {
-  led.turnOn(100);
-  led.turnOff(100);
 }
 
-
+void loop()
+{
+  led.turnOn(500); // LED on 500ms
+  led.turnOff(500);  // LED off 500ms
+}
