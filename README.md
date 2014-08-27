@@ -22,3 +22,9 @@ Arduino examples and libraries for myself.
 - WiFi
 - Wire(I2C)
 
+## Arduino Resource
+- Power(GND 5V 3.3V RESET)
+- Analog In(A0 ~ A15)
+- Digital(31 ~ 52)
+- PWM(2 ~ 13)
+- Communication(3xserial, 2xI2C)
